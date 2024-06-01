@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { ActionFunctionArgs, Link, useLoaderData } from "react-router-dom";
 import {
   getProducts,
   updateProductAvailability,
