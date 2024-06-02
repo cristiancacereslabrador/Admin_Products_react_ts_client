@@ -26,7 +26,7 @@ export default function Products() {
 
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-wrap">
         <h2 className="text-4xl font-black text-slate-500">Products</h2>
         <Link
           to="products/nuevo"
@@ -35,8 +35,8 @@ export default function Products() {
           Add Product
         </Link>
       </div>
-      <div className="p-2">
-        <table className="w-full mt-5 table-auto shadow-md">
+      <div className="p-2 overflow-x-auto">
+        <table className="w-full mt-5 table-auto shadow-md min-w-[600px]">
           <thead className="bg-slate-800 text-white">
             <tr className="shadow-md">
               <th className="p-2">Product</th>
